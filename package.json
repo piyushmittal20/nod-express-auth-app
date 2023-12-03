@@ -1,0 +1,32 @@
+{
+  "name": "express-auth-app",
+  "version": "1.0.0",
+  "description": "This is the simple expres auth app backend. ",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/app.ts"
+  },
+  "author": "Piyush",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "^20.10.2",
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "http-status": "^1.7.3",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mysql2": "^3.6.5",
+    "sequelize": "^6.35.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "@types/nodemon": "^1.19.6",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  }
+}
